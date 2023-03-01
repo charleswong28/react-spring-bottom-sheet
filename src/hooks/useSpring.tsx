@@ -10,6 +10,9 @@ export function useSpring() {
     maxHeight: 0,
     minSnap: 0,
     maxSnap: 0,
+    config: {
+      duration: 100,
+    },
   }))
 }
 
